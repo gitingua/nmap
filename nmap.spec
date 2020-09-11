@@ -55,7 +55,7 @@ rmdir %{buildroot}%{_datadir}/ncat
 #we provide 'nc' replacement
 ln -s ncat.1.gz %{buildroot}%{_mandir}/man1/nc.1.gz
 ln -s ncat %{buildroot}%{_bindir}/nc
-install -m 0755 %{buildroot}/usr/bin/ndiff	%{buildroot}/usr/bin/ndiff
+install -m 0755 %{_buildir}/usr/bin/ndiff	%{buildroot}/usr/bin/ndiff
 install -m 0755 %{_builddir}/%{full_name}/usr/bin/nmap	%{buildroot}/usr/bin/nmap
 install -m 0755 %{_builddir}/%{full_name}/usr/lib/python2.6/site-packages/ndiff.py	%{buildroot}/usr/lib/python2.6/site-packages/ndiff.py
 install -m 0755 %{_builddir}/%{full_name}/usr/lib/python2.6/site-packages/ndiff.pyc	%{buildroot}/usr/lib/python2.6/site-packages/ndiff.pyc
