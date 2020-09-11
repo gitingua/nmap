@@ -4,7 +4,7 @@ Version:	 7.80
 Release:	rambler.el7	
 Summary:	Repackaged nmap package with configuration from the Department of Cybersecurity
 Packager:   	Gitinomagomed Magomedov	
-global full_name nmap-7.80-rambler.el7.x86_64
+%global full_name nmap-7.80-rambler.el7.x86_64
 
 License: https://nmap.org/man/man-legal.html
 URL:		https://nmap.org
