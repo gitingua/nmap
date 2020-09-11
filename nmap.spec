@@ -4,7 +4,7 @@ Version:	 7.80
 Release:	rambler.el7	
 Summary:	Repackaged nmap package with configuration from the Department of Cybersecurity
 Packager:   	Gitinomagomed Magomedov	
-%global full_name nmap-7.80-rambler.el7.x86_64
+%global full_name nmap-7.80
 
 License: https://nmap.org/man/man-legal.html
 URL:		https://nmap.org
@@ -53,7 +53,9 @@ rmdir %{buildroot}%{_datadir}/ncat
 #we provide 'nc' replacement
 ln -s ncat.1.gz %{buildroot}%{_mandir}/man1/nc.1.gz
 ln -s ncat %{buildroot}%{_bindir}/nc
-install -m 0755 %{_builddir}/nmap-7.80/ndiff	%{buildroot}/usr/bin/ndiff
+/root/rpmbuild/BUILD/nmap-7.80
+/root/rpmbuild/BUILD/nmap-7.80
+#install -m 0755 %{_builddir}/nmap-7.80/ndiff	%{buildroot}/usr/bin/ndiff
 install -m 0755 %{_builddir}/%{full_name}/usr/bin/nmap	%{buildroot}/usr/bin/nmap
 install -m 0755 %{_builddir}/%{full_name}/usr/lib/python2.6/site-packages/ndiff.py	%{buildroot}/usr/lib/python2.6/site-packages/ndiff.py
 install -m 0755 %{_builddir}/%{full_name}/usr/lib/python2.6/site-packages/ndiff.pyc	%{buildroot}/usr/lib/python2.6/site-packages/ndiff.pyc
