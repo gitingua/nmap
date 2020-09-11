@@ -23,7 +23,7 @@ Repackaged nmap package with configuration from the Department of Cybersecurity
 
 
 %prep
-%autosetup -p1
+%autosetup -p
 
 %build
 rpm2cpio ~/rpmbuild/SOURCES/nmap-7.80-1.x86_64.rpm | cpio -idmv
