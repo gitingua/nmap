@@ -38,8 +38,18 @@ rm -rf libpcap libpcre macosx mswin32 libssh2 libz
 export CFLAGS="$RPM_OPT_FLAGS -fno-strict-aliasing"
 export CXXFLAGS="$RPM_OPT_FLAGS -fno-strict-aliasing"
 ### TODO ## configure  --with-libpcap=/usr ###TODO###
-%configure  --with-libpcap=yes --with-liblua=included --enable-dbus 
-
+%configure  --with-libpcap=yes --with-liblua=included --enable-dbus --with-openssl=%{openssl} --without-zenmap --with-ndiff --with-nmap-update --with-libdnet=included --with-libpcap=included --with-libpcre=included --with-liblua=included --with-libz=included
+%if "%{buildncat}" == "0"
+%configure --without-ncat
+%endif
+%if "%{buildnping}" == "0"
+%configure --without-nping
+%endif
+%if "%{static}" == "1"
+make static
+%else
+make
+%endif
 %make_build
 
 #fix man page (rhbz#813734)
@@ -55,7 +65,7 @@ rmdir %{buildroot}%{_datadir}/ncat
 #we provide 'nc' replacement
 ln -s ncat.1.gz %{buildroot}%{_mandir}/man1/nc.1.gz
 ln -s ncat %{buildroot}%{_bindir}/nc
-install -m 0755 %{_buildir}/usr/bin/ndiff	%{buildroot}/usr/bin/ndiff
+install -m 0755 /root/rpmbuild/BUILD/nmap-7.80/ndiff	%{buildroot}/usr/bin/ndiff
 install -m 0755 %{_builddir}/%{full_name}/usr/bin/nmap	%{buildroot}/usr/bin/nmap
 install -m 0755 %{_builddir}/%{full_name}/usr/lib/python2.6/site-packages/ndiff.py	%{buildroot}/usr/lib/python2.6/site-packages/ndiff.py
 install -m 0755 %{_builddir}/%{full_name}/usr/lib/python2.6/site-packages/ndiff.pyc	%{buildroot}/usr/lib/python2.6/site-packages/ndiff.pyc
