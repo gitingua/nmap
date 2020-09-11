@@ -39,20 +39,8 @@ export CFLAGS="$RPM_OPT_FLAGS -fno-strict-aliasing"
 export CXXFLAGS="$RPM_OPT_FLAGS -fno-strict-aliasing"
 ### TODO ## configure  --with-libpcap=/usr ###TODO###
 %configure  --with-libpcap=yes --with-liblua=included --enable-dbus --with-openssl=%{openssl} --without-zenmap --with-ndiff --with-nmap-update --with-libdnet=included --with-libpcap=included --with-libpcre=included --with-liblua=included --with-libz=included
-%if "%{buildncat}" == "0"
-%configure --without-ncat
-%endif
-%if "%{buildnping}" == "0"
-%configure --without-nping
-%endif
-%if "%{static}" == "1"
-make static
-%else
-make
-%endif
-%make_build
 
-#fix man page (rhbz#813734)
+%make_build
 sed -i 's/-md/-mf/' nping/docs/nping.1
 %install
 make -j8 all
