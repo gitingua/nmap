@@ -38,7 +38,7 @@ rm -rf libpcap libpcre macosx mswin32 libssh2 libz
 export CFLAGS="$RPM_OPT_FLAGS -fno-strict-aliasing"
 export CXXFLAGS="$RPM_OPT_FLAGS -fno-strict-aliasing"
 ### TODO ## configure  --with-libpcap=/usr ###TODO###
-%configure  --with-libpcap=yes --with-liblua=included --enable-dbus --with-openssl=%{openssl} --without-zenmap --with-ndiff --with-nmap-update --with-libdnet=included --with-libpcap=included --with-libpcre=included --with-liblua=included --with-libz=included
+%configure  --with-libpcap=yes --with-liblua=included --enable-dbus
 
 %make_build
 sed -i 's/-md/-mf/' nping/docs/nping.1
