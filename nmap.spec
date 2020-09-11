@@ -8,14 +8,23 @@ License: https://nmap.org/man/man-legal.html
 URL:		https://nmap.org
 
 
-Source0: https://nmap.org/dist/%{Name}-%{Version}.tgz
+Source0: https://nmap.org/dist/%{name}-%{version}.tgz
 
-BuildRequires:	gzip
-BuildRequires:  tar
-BuildRequires: 	systemd
-Requires:  	rpmlib(FileDigests) <= 4.6.0-1
-Requires:  	rpmlib(PayloadFilesHavePrefix) <= 4.0-1 
-Requires:  	rpmlib(CompressedFileNames) <= 3.0.4-1
+BuildRequires: automake
+BuildRequires: autoconf
+BuildRequires: gcc-c++
+BuildRequires: gettext-devel
+BuildRequires: libpcap-devel
+%if 0%{?fedora} 
+BuildRequires: libssh2-devel
+%endif
+BuildRequires: libtool
+BuildRequires: lua-devel
+BuildRequires: openssl-devel
+BuildRequires: pcre-devel
+BuildRequires: zlib-devel
+Requires: %{name}-ncat = %{epoch}:%{version}-%{release}
+
 
 
 %description
