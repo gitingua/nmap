@@ -77,7 +77,6 @@ install -m 0755 %{_builddir}/%{full_name}/usr/bin/nmap	%{buildroot}/usr/bin/nmap
 install -m 0755 %{_builddir}/%{full_name}/usr/lib/python2.6/site-packages/ndiff.py	%{buildroot}/usr/lib/python2.6/site-packages/ndiff.py
 install -m 0755 %{_builddir}/%{full_name}/usr/lib/python2.6/site-packages/ndiff.pyc	%{buildroot}/usr/lib/python2.6/site-packages/ndiff.pyc
 install -m 0755 %{_builddir}/%{full_name}/usr/lib/python2.6/site-packages/ndiff.pyo	%{buildroot}/usr/lib/python2.6/site-packages/ndiff.pyo
-install -m 0755 %{_builddir}/%{full_name}/usr/share/doc/nmap-7.80	%{buildroot}/usr/share/doc/nmap-7.80
 install -m 0755 %{_builddir}/%{full_name}/usr/share/doc/nmap-7.80/COPYING	%{buildroot}/usr/share/doc/nmap-7.80/COPYING
 install -m 0755 %{_builddir}/%{full_name}/usr/share/doc/nmap-7.80/README	%{buildroot}/usr/share/doc/nmap-7.80/README
 install -m 0755 %{_builddir}/%{full_name}/usr/share/doc/nmap-7.80/nmap.usage.txt	%{buildroot}/usr/share/doc/nmap-7.80/nmap.usage.txt
