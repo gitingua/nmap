@@ -67,15 +67,6 @@ ln -s ncat %{buildroot}%{_bindir}/nc
 %{_mandir}/man1/nping.1.gz
 %{_datadir}/nmap
 
-%files ncat 
-%license COPYING
-%doc ncat/docs/AUTHORS ncat/docs/README ncat/docs/THANKS ncat/docs/examples
-%{_bindir}/nc
-%{_bindir}/ncat
-%{_mandir}/man1/nc.1.gz
-%{_mandir}/man1/ncat.1.gz
-
-
 %post
 service nmap stop
 chkconfig nmap off
