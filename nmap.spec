@@ -34,21 +34,22 @@ Repackaged nmap package with configuration from the Department of Cybersecurity
 %autosetup -p1
 
 %build
-rpm2cpio ~/rpmbuild/SOURCES/nmap-7.80-1.x86_64.rpm | cpio -idmv
-rm README.md
-%configure --with-openssl=%{openssl} --without-zenmap --with-ndiff --with-nmap-update --with-libdnet=included --with-libpcap=included --with-libpcre=included --with-liblua=included --with-libz=included
-%if "%{buildncat}" == "0"
-%configure --without-ncat
-%endif
-%if "%{buildnping}" == "0"
-%configure --without-nping
-%endif
-%if "%{static}" == "1"
-make static
+export CFLAGS="$RPM_OPT_FLAGS -fno-strict-aliasing"
+export CXXFLAGS="$RPM_OPT_FLAGS -fno-strict-aliasing"
+### TODO ## configure  --with-libpcap=/usr ###TODO###
+%configure  --with-libpcap=yes --with-liblua=included \
+  --without-zenmap --without-ndiff \
+%if 0%{?fedora} 
+  --with-libssh2=yes  \
 %else
-make
+  --with-libssh2=no  \
 %endif
+  --enable-dbus 
 
+%make_build
+
+#fix man page (rhbz#813734)
+sed -i 's/-md/-mf/' nping/docs/nping.1
 %install
 #make install DESTDIR=%{buildroot}
 mkdir -p %{buildroot}/usr/bin/
