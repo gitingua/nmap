@@ -9,7 +9,7 @@ License: https://nmap.org/man/man-legal.html
 URL:		https://nmap.org
 
 
-Source0: https://nmap.org/dist/%{name}-%{version}.tgz
+Source0: https://nmap.org/dist/nmap-7.80.tgz
 
 BuildRequires: automake
 BuildRequires: autoconf
