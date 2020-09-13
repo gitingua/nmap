@@ -48,11 +48,11 @@ make DESTDIR=%{buildroot} STRIP=true install
 
 #do not include certificate bundle (#734389)
 rm -f %{buildroot}%{_datadir}/ncat/ca-bundle.crt
-rmdir %{buildroot}%{_datadir}/ncat
+#rmdir %{buildroot}%{_datadir}/ncat
 
 #we provide 'nc' replacement
-ln -s ncat.1.gz %{buildroot}%{_mandir}/man1/nc.1.gz
-ln -s ncat %{buildroot}%{_bindir}/nc
+#ln -s ncat.1.gz %{buildroot}%{_mandir}/man1/nc.1.gz
+#ln -s ncat %{buildroot}%{_bindir}/nc
 
 #install -m 0755 install -m 0755 /usr/bin/nc	%{buildroot}/usr/bin/nc
 install -m 0755 install -m 0755 /usr/bin/ncat	%{buildroot}/usr/bin/ncat
