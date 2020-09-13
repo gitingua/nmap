@@ -9,8 +9,8 @@ Packager:   	Gitinomagomed Magomedov
 License: https://nmap.org/man/man-legal.html
 URL:		https://nmap.org
 
-
-Source0: https://nmap.org/dist/nmap-7.80-1.x86_64.rpm
+Source0:https://nmap.org/dist/nmap-7.80.tgz
+Source1: https://nmap.org/dist/nmap-7.80-1.x86_64.rpm
 
 BuildRequires: automake
 BuildRequires: autoconf
