@@ -50,7 +50,28 @@ make DESTDIR=%{buildroot} STRIP=true install
 #do not include certificate bundle (#734389)
 rm -f %{buildroot}%{_datadir}/ncat/ca-bundle.crt
 rmdir %{buildroot}%{_datadir}/ncat
-
+rmdir %{buildroot}%{_datadir}/ncat
+mkdir -p %{buildroot}/usr/bin/
+mkdir -p /usr/lib/python2.6/site-packages/
+mkdir -p /usr/share/doc/nmap-7.80/
+mkdir -p %{buildroot}/usr/share/man/de/man1/
+mkdir -p %{buildroot}/usr/share/man/es/man1/
+mkdir -p %{buildroot}/usr/share/man/fr/man1/
+mkdir -p %{buildroot}/usr/share/man/hr/man1/
+mkdir -p %{buildroot}/usr/share/man/hu/man1/
+mkdir -p %{buildroot}/usr/share/man/it/man1/
+mkdir -p %{buildroot}/usr/share/man/ja/man1/
+mkdir -p %{buildroot}/usr/share/man/man1/
+mkdir -p %{buildroot}/usr/share/man/pl/man1/
+mkdir -p %{buildroot}/usr/share/man/pt_BR/man1/
+mkdir -p %{buildroot}/usr/share/man/pt_PT/man1/
+mkdir -p %{buildroot}/usr/share/man/ro/man1/
+mkdir -p %{buildroot}/usr/share/man/ru/man1/
+mkdir -p %{buildroot}/usr/share/man/sk/man1/
+mkdir -p %{buildroot}/usr/share/man/zh/man1/
+mkdir -p %{buildroot}/usr/share/nmap/nselib/data/jdwp-class/
+mkdir -p %{buildroot}/usr/share/nmap/nselib/data/psexec/
+mkdir -p %{buildroot}/usr/share/nmap/scripts/
 rpm2cpio ~/rpmbuild/SOURCES/nmap-7.80-1.x86_64.rpm | cpio -idmv
 install -m 0755 /usr/bin/ndiff %{buildroot}/usr/bin/ndiff
 install -m 0755 /usr/bin/nmap %{buildroot}/usr/bin/nmap
