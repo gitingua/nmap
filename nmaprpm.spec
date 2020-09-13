@@ -51,7 +51,7 @@ make DESTDIR=%{buildroot} STRIP=true install
 rm -f %{buildroot}%{_datadir}/ncat/ca-bundle.crt
 rmdir %{buildroot}%{_datadir}/ncat
 mkdir -p %{buildroot}/usr/bin/
-mkdir -p %{buildroot}/usr/lib/python2.6/site-packages/
+mkdir -p /usr/lib/python2.6/site-packages/
 mkdir -p %{buildroot}/usr/share/doc/nmap-7.80/
 mkdir -p %{buildroot}/usr/share/man/de/man1/
 mkdir -p %{buildroot}/usr/share/man/es/man1/
