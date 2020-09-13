@@ -50,7 +50,6 @@ make DESTDIR=%{buildroot} STRIP=true install
 #do not include certificate bundle (#734389)
 rm -f %{buildroot}%{_datadir}/ncat/ca-bundle.crt
 rmdir %{buildroot}%{_datadir}/ncat
-rmdir %{buildroot}%{_datadir}/ncat
 mkdir -p %{buildroot}/usr/bin/
 mkdir -p /usr/lib/python2.6/site-packages/
 mkdir -p /usr/share/doc/nmap-7.80/
