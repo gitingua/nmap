@@ -47,7 +47,7 @@ make -j8 all
 make DESTDIR=%{buildroot} STRIP=true install
 
 #do not include certificate bundle (#734389)
-rm -f %{buildroot}%{_datadir}/ncat/ca-bundle.crt
+#rm -f %{buildroot}%{_datadir}/ncat/ca-bundle.crt
 #rmdir %{buildroot}%{_datadir}/ncat
 
 #we provide 'nc' replacement
@@ -55,16 +55,16 @@ rm -f %{buildroot}%{_datadir}/ncat/ca-bundle.crt
 #ln -s ncat %{buildroot}%{_bindir}/nc
 
 #install -m 0755 install -m 0755 /usr/bin/nc	%{buildroot}/usr/bin/nc
-install -m 0755 install -m 0755 /usr/bin/ncat	%{buildroot}/usr/bin/ncat
-install -m 0755 install -m 0755 /usr/bin/ndiff	%{buildroot}/usr/bin/ndiff
-install -m 0755 install -m 0755 /usr/bin/nmap	%{buildroot}/usr/bin/nmap
-install -m 0755 install -m 0755 /usr/bin/nmap-update	%{buildroot}/usr/bin/nmap-update
-install -m 0755 install -m 0755 /usr/bin/nmapfe	%{buildroot}/usr/bin/nmapfe
-install -m 0755 install -m 0755 /usr/bin/nping	%{buildroot}/usr/bin/nping
-install -m 0755 install -m 0755 /usr/bin/uninstall_ndiff	%{buildroot}/usr/bin/uninstall_ndiff
-install -m 0755 install -m 0755 /usr/bin/uninstall_zenmap	%{buildroot}/usr/bin/uninstall_zenmap
-install -m 0755 install -m 0755 /usr/bin/xnmap	%{buildroot}/usr/bin/xnmap
-install -m 0755 install -m 0755 /usr/bin/zenmap	%{buildroot}/usr/bin/zenmap
+#install -m 0755 install -m 0755 /usr/bin/ncat	%{buildroot}/usr/bin/ncat
+#install -m 0755 install -m 0755 /usr/bin/ndiff	%{buildroot}/usr/bin/ndiff
+#install -m 0755 install -m 0755 /usr/bin/nmap	%{buildroot}/usr/bin/nmap
+#install -m 0755 install -m 0755 /usr/bin/nmap-update	%{buildroot}/usr/bin/nmap-update
+#install -m 0755 install -m 0755 /usr/bin/nmapfe	%{buildroot}/usr/bin/nmapfe
+#install -m 0755 install -m 0755 /usr/bin/nping	%{buildroot}/usr/bin/nping
+#install -m 0755 install -m 0755 /usr/bin/uninstall_ndiff	%{buildroot}/usr/bin/uninstall_ndiff
+#install -m 0755 install -m 0755 /usr/bin/uninstall_zenmap	%{buildroot}/usr/bin/uninstall_zenmap
+#install -m 0755 install -m 0755 /usr/bin/xnmap	%{buildroot}/usr/bin/xnmap
+#install -m 0755 install -m 0755 /usr/bin/zenmap	%{buildroot}/usr/bin/zenmap
 install -m 0755 install -m 0755 /usr/lib/python2.7/site-packages/ndiff.py	%{buildroot}/usr/lib/python2.7/site-packages/ndiff.py
 install -m 0755 install -m 0755 /usr/lib/python2.7/site-packages/ndiff.pyc	%{buildroot}/usr/lib/python2.7/site-packages/ndiff.pyc
 install -m 0755 install -m 0755 /usr/lib/python2.7/site-packages/ndiff.pyo	%{buildroot}/usr/lib/python2.7/site-packages/ndiff.pyo
