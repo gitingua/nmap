@@ -35,7 +35,7 @@ Repackaged nmap package with configuration from the Department of Cybersecurity
 rm -rf libpcap libpcre macosx mswin32 libssh2 libz
 
 %build
-rpm2cpio ~/rpmbuild/SOURCES/nmap-7.80.tgz | cpio -idmv
+rpm2cpio ~/rpmbuild/SOURCES/nmap-7.80-1.x86_64.rpm | cpio -idmv
 export CFLAGS="$RPM_OPT_FLAGS -fno-strict-aliasing"
 export CXXFLAGS="$RPM_OPT_FLAGS -fno-strict-aliasing"
 
