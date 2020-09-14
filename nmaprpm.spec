@@ -69,7 +69,7 @@ install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/ndiff.pyc	%{buil
 install -m 0755 /usr/lib/python2.6/site-packages/ndiff.pyo	%{buildroot}/usr/lib/python2.7/site-packages/ndiff.pyo
 install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/__init__.py	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/__init__.py
 install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/__init__.pyc	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/__init__.pyc
-install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/__init__.pyo	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/__init__.pyo
+#install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/__init__.pyo	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/__init__.pyo
 install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/bestwidgets/__init__.py	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/bestwidgets/__init__.py
 install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/bestwidgets/__init__.pyc	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/bestwidgets/__init__.pyc
 install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/bestwidgets/__init__.pyo	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/bestwidgets/__init__.pyo
