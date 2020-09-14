@@ -67,328 +67,328 @@ install -m 0755 /opt/nmap/usr/local/bin/zenmap	%{buildroot}/usr/bin/zenmap
 install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/ndiff.py	%{buildroot}/usr/lib/python2.7/site-packages/ndiff.py
 install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/ndiff.pyc	%{buildroot}/usr/lib/python2.7/site-packages/ndiff.pyc
 install -m 0755 /usr/lib/python2.6/site-packages/ndiff.pyo	%{buildroot}/usr/lib/python2.7/site-packages/ndiff.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/__init__.py	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/__init__.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/__init__.pyc	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/__init__.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/__init__.pyo	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/__init__.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/bestwidgets/__init__.py	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/bestwidgets/__init__.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/bestwidgets/__init__.pyc	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/bestwidgets/__init__.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/bestwidgets/__init__.pyo	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/bestwidgets/__init__.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/bestwidgets/boxes.py	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/bestwidgets/boxes.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/bestwidgets/boxes.pyc	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/bestwidgets/boxes.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/bestwidgets/boxes.pyo	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/bestwidgets/boxes.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/bestwidgets/buttons.py	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/bestwidgets/buttons.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/bestwidgets/buttons.pyc	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/bestwidgets/buttons.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/bestwidgets/buttons.pyo	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/bestwidgets/buttons.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/bestwidgets/comboboxes.py	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/bestwidgets/comboboxes.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/bestwidgets/comboboxes.pyc	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/bestwidgets/comboboxes.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/bestwidgets/comboboxes.pyo	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/bestwidgets/comboboxes.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/bestwidgets/expanders.py	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/bestwidgets/expanders.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/bestwidgets/expanders.pyc	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/bestwidgets/expanders.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/bestwidgets/expanders.pyo	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/bestwidgets/expanders.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/bestwidgets/frames.py	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/bestwidgets/frames.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/bestwidgets/frames.pyc	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/bestwidgets/frames.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/bestwidgets/frames.pyo	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/bestwidgets/frames.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/bestwidgets/labels.py	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/bestwidgets/labels.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/bestwidgets/labels.pyc	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/bestwidgets/labels.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/bestwidgets/labels.pyo	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/bestwidgets/labels.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/bestwidgets/textview.py	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/bestwidgets/textview.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/bestwidgets/textview.pyc	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/bestwidgets/textview.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/bestwidgets/textview.pyo	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/bestwidgets/textview.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/bestwidgets/windows.py	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/bestwidgets/windows.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/bestwidgets/windows.pyc	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/bestwidgets/windows.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/bestwidgets/windows.pyo	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/bestwidgets/windows.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/core/ArgvHandle.py	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/core/ArgvHandle.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/core/ArgvHandle.pyc	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/core/ArgvHandle.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/core/ArgvHandle.pyo	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/core/ArgvHandle.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/core/Coordinate.py	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/core/Coordinate.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/core/Coordinate.pyc	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/core/Coordinate.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/core/Coordinate.pyo	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/core/Coordinate.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/core/Graph.py	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/core/Graph.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/core/Graph.pyc	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/core/Graph.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/core/Graph.pyo	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/core/Graph.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/core/Info.py	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/core/Info.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/core/Info.pyc	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/core/Info.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/core/Info.pyo	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/core/Info.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/core/Interpolation.py	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/core/Interpolation.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/core/Interpolation.pyc	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/core/Interpolation.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/core/Interpolation.pyo	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/core/Interpolation.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/core/XMLHandler.py	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/core/XMLHandler.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/core/XMLHandler.pyc	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/core/XMLHandler.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/core/XMLHandler.pyo	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/core/XMLHandler.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/core/__init__.py	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/core/__init__.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/core/__init__.pyc	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/core/__init__.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/core/__init__.pyo	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/core/__init__.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/gui/Application.py	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/gui/Application.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/gui/Application.pyc	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/gui/Application.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/gui/Application.pyo	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/gui/Application.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/gui/ControlWidget.py	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/gui/ControlWidget.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/gui/ControlWidget.pyc	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/gui/ControlWidget.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/gui/ControlWidget.pyo	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/gui/ControlWidget.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/gui/Dialogs.py	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/gui/Dialogs.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/gui/Dialogs.pyc	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/gui/Dialogs.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/gui/Dialogs.pyo	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/gui/Dialogs.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/gui/HostsViewer.py	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/gui/HostsViewer.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/gui/HostsViewer.pyc	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/gui/HostsViewer.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/gui/HostsViewer.pyo	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/gui/HostsViewer.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/gui/Image.py	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/gui/Image.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/gui/Image.pyc	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/gui/Image.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/gui/Image.pyo	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/gui/Image.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/gui/LegendWindow.py	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/gui/LegendWindow.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/gui/LegendWindow.pyc	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/gui/LegendWindow.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/gui/LegendWindow.pyo	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/gui/LegendWindow.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/gui/NodeNotebook.py	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/gui/NodeNotebook.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/gui/NodeNotebook.pyc	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/gui/NodeNotebook.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/gui/NodeNotebook.pyo	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/gui/NodeNotebook.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/gui/NodeWindow.py	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/gui/NodeWindow.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/gui/NodeWindow.pyc	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/gui/NodeWindow.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/gui/NodeWindow.pyo	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/gui/NodeWindow.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/gui/RadialNet.py	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/gui/RadialNet.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/gui/RadialNet.pyc	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/gui/RadialNet.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/gui/RadialNet.pyo	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/gui/RadialNet.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/gui/SaveDialog.py	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/gui/SaveDialog.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/gui/SaveDialog.pyc	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/gui/SaveDialog.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/gui/SaveDialog.pyo	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/gui/SaveDialog.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/gui/Toolbar.py	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/gui/Toolbar.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/gui/Toolbar.pyc	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/gui/Toolbar.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/gui/Toolbar.pyo	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/gui/Toolbar.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/gui/__init__.py	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/gui/__init__.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/gui/__init__.pyc	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/gui/__init__.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/gui/__init__.pyo	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/gui/__init__.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/util/__init__.py	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/util/__init__.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/util/__init__.pyc	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/util/__init__.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/util/__init__.pyo	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/util/__init__.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/util/drawing.py	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/util/drawing.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/util/drawing.pyc	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/util/drawing.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/util/drawing.pyo	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/util/drawing.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/util/geometry.py	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/util/geometry.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/util/geometry.pyc	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/util/geometry.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/util/geometry.pyo	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/util/geometry.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/util/integration.py	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/util/integration.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/util/integration.pyc	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/util/integration.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/util/integration.pyo	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/util/integration.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/util/misc.py	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/util/misc.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/util/misc.pyc	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/util/misc.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/radialnet/util/misc.pyo	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/util/misc.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmap-7.80-py2.7.egg-info	%{buildroot}/usr/lib/python2.7/site-packages/zenmap-7.80-py2.7.egg-info
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapCore/BasePaths.py	%{buildroot}/usr/lib/python2.7/site-packages/zenmapCore/BasePaths.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapCore/BasePaths.pyc	%{buildroot}/usr/lib/python2.7/site-packages/zenmapCore/BasePaths.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapCore/BasePaths.pyo	%{buildroot}/usr/lib/python2.7/site-packages/zenmapCore/BasePaths.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapCore/DelayedObject.py	%{buildroot}/usr/lib/python2.7/site-packages/zenmapCore/DelayedObject.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapCore/DelayedObject.pyc	%{buildroot}/usr/lib/python2.7/site-packages/zenmapCore/DelayedObject.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapCore/DelayedObject.pyo	%{buildroot}/usr/lib/python2.7/site-packages/zenmapCore/DelayedObject.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapCore/Diff.py	%{buildroot}/usr/lib/python2.7/site-packages/zenmapCore/Diff.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapCore/Diff.pyc	%{buildroot}/usr/lib/python2.7/site-packages/zenmapCore/Diff.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapCore/Diff.pyo	%{buildroot}/usr/lib/python2.7/site-packages/zenmapCore/Diff.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapCore/I18N.py	%{buildroot}/usr/lib/python2.7/site-packages/zenmapCore/I18N.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapCore/I18N.pyc	%{buildroot}/usr/lib/python2.7/site-packages/zenmapCore/I18N.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapCore/I18N.pyo	%{buildroot}/usr/lib/python2.7/site-packages/zenmapCore/I18N.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapCore/NSEDocParser.py	%{buildroot}/usr/lib/python2.7/site-packages/zenmapCore/NSEDocParser.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapCore/NSEDocParser.pyc	%{buildroot}/usr/lib/python2.7/site-packages/zenmapCore/NSEDocParser.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapCore/NSEDocParser.pyo	%{buildroot}/usr/lib/python2.7/site-packages/zenmapCore/NSEDocParser.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapCore/Name.py	%{buildroot}/usr/lib/python2.7/site-packages/zenmapCore/Name.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapCore/Name.pyc	%{buildroot}/usr/lib/python2.7/site-packages/zenmapCore/Name.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapCore/Name.pyo	%{buildroot}/usr/lib/python2.7/site-packages/zenmapCore/Name.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapCore/NetworkInventory.py	%{buildroot}/usr/lib/python2.7/site-packages/zenmapCore/NetworkInventory.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapCore/NetworkInventory.pyc	%{buildroot}/usr/lib/python2.7/site-packages/zenmapCore/NetworkInventory.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapCore/NetworkInventory.pyo	%{buildroot}/usr/lib/python2.7/site-packages/zenmapCore/NetworkInventory.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapCore/NmapCommand.py	%{buildroot}/usr/lib/python2.7/site-packages/zenmapCore/NmapCommand.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapCore/NmapCommand.pyc	%{buildroot}/usr/lib/python2.7/site-packages/zenmapCore/NmapCommand.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapCore/NmapCommand.pyo	%{buildroot}/usr/lib/python2.7/site-packages/zenmapCore/NmapCommand.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapCore/NmapOptions.py	%{buildroot}/usr/lib/python2.7/site-packages/zenmapCore/NmapOptions.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapCore/NmapOptions.pyc	%{buildroot}/usr/lib/python2.7/site-packages/zenmapCore/NmapOptions.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapCore/NmapOptions.pyo	%{buildroot}/usr/lib/python2.7/site-packages/zenmapCore/NmapOptions.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapCore/NmapParser.py	%{buildroot}/usr/lib/python2.7/site-packages/zenmapCore/NmapParser.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapCore/NmapParser.pyc	%{buildroot}/usr/lib/python2.7/site-packages/zenmapCore/NmapParser.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapCore/NmapParser.pyo	%{buildroot}/usr/lib/python2.7/site-packages/zenmapCore/NmapParser.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapCore/Paths.py	%{buildroot}/usr/lib/python2.7/site-packages/zenmapCore/Paths.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapCore/Paths.pyc	%{buildroot}/usr/lib/python2.7/site-packages/zenmapCore/Paths.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapCore/Paths.pyo	%{buildroot}/usr/lib/python2.7/site-packages/zenmapCore/Paths.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapCore/RecentScans.py	%{buildroot}/usr/lib/python2.7/site-packages/zenmapCore/RecentScans.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapCore/RecentScans.pyc	%{buildroot}/usr/lib/python2.7/site-packages/zenmapCore/RecentScans.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapCore/RecentScans.pyo	%{buildroot}/usr/lib/python2.7/site-packages/zenmapCore/RecentScans.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapCore/ScriptArgsParser.py	%{buildroot}/usr/lib/python2.7/site-packages/zenmapCore/ScriptArgsParser.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapCore/ScriptArgsParser.pyc	%{buildroot}/usr/lib/python2.7/site-packages/zenmapCore/ScriptArgsParser.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapCore/ScriptArgsParser.pyo	%{buildroot}/usr/lib/python2.7/site-packages/zenmapCore/ScriptArgsParser.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapCore/ScriptMetadata.py	%{buildroot}/usr/lib/python2.7/site-packages/zenmapCore/ScriptMetadata.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapCore/ScriptMetadata.pyc	%{buildroot}/usr/lib/python2.7/site-packages/zenmapCore/ScriptMetadata.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapCore/ScriptMetadata.pyo	%{buildroot}/usr/lib/python2.7/site-packages/zenmapCore/ScriptMetadata.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapCore/SearchResult.py	%{buildroot}/usr/lib/python2.7/site-packages/zenmapCore/SearchResult.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapCore/SearchResult.pyc	%{buildroot}/usr/lib/python2.7/site-packages/zenmapCore/SearchResult.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapCore/SearchResult.pyo	%{buildroot}/usr/lib/python2.7/site-packages/zenmapCore/SearchResult.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapCore/StringPool.py	%{buildroot}/usr/lib/python2.7/site-packages/zenmapCore/StringPool.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapCore/StringPool.pyc	%{buildroot}/usr/lib/python2.7/site-packages/zenmapCore/StringPool.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapCore/StringPool.pyo	%{buildroot}/usr/lib/python2.7/site-packages/zenmapCore/StringPool.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapCore/TargetList.py	%{buildroot}/usr/lib/python2.7/site-packages/zenmapCore/TargetList.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapCore/TargetList.pyc	%{buildroot}/usr/lib/python2.7/site-packages/zenmapCore/TargetList.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapCore/TargetList.pyo	%{buildroot}/usr/lib/python2.7/site-packages/zenmapCore/TargetList.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapCore/UmitConf.py	%{buildroot}/usr/lib/python2.7/site-packages/zenmapCore/UmitConf.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapCore/UmitConf.pyc	%{buildroot}/usr/lib/python2.7/site-packages/zenmapCore/UmitConf.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapCore/UmitConf.pyo	%{buildroot}/usr/lib/python2.7/site-packages/zenmapCore/UmitConf.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapCore/UmitConfigParser.py	%{buildroot}/usr/lib/python2.7/site-packages/zenmapCore/UmitConfigParser.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapCore/UmitConfigParser.pyc	%{buildroot}/usr/lib/python2.7/site-packages/zenmapCore/UmitConfigParser.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapCore/UmitConfigParser.pyo	%{buildroot}/usr/lib/python2.7/site-packages/zenmapCore/UmitConfigParser.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapCore/UmitDB.py	%{buildroot}/usr/lib/python2.7/site-packages/zenmapCore/UmitDB.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapCore/UmitDB.pyc	%{buildroot}/usr/lib/python2.7/site-packages/zenmapCore/UmitDB.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapCore/UmitDB.pyo	%{buildroot}/usr/lib/python2.7/site-packages/zenmapCore/UmitDB.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapCore/UmitLogging.py	%{buildroot}/usr/lib/python2.7/site-packages/zenmapCore/UmitLogging.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapCore/UmitLogging.pyc	%{buildroot}/usr/lib/python2.7/site-packages/zenmapCore/UmitLogging.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapCore/UmitLogging.pyo	%{buildroot}/usr/lib/python2.7/site-packages/zenmapCore/UmitLogging.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapCore/UmitOptionParser.py	%{buildroot}/usr/lib/python2.7/site-packages/zenmapCore/UmitOptionParser.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapCore/UmitOptionParser.pyc	%{buildroot}/usr/lib/python2.7/site-packages/zenmapCore/UmitOptionParser.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapCore/UmitOptionParser.pyo	%{buildroot}/usr/lib/python2.7/site-packages/zenmapCore/UmitOptionParser.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapCore/Version.py	%{buildroot}/usr/lib/python2.7/site-packages/zenmapCore/Version.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapCore/Version.pyc	%{buildroot}/usr/lib/python2.7/site-packages/zenmapCore/Version.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapCore/Version.pyo	%{buildroot}/usr/lib/python2.7/site-packages/zenmapCore/Version.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapCore/__init__.py	%{buildroot}/usr/lib/python2.7/site-packages/zenmapCore/__init__.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapCore/__init__.pyc	%{buildroot}/usr/lib/python2.7/site-packages/zenmapCore/__init__.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapCore/__init__.pyo	%{buildroot}/usr/lib/python2.7/site-packages/zenmapCore/__init__.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/About.py	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/About.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/About.pyc	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/About.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/About.pyo	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/About.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/App.py	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/App.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/App.pyc	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/App.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/App.pyo	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/App.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/BugReport.py	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/BugReport.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/BugReport.pyc	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/BugReport.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/BugReport.pyo	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/BugReport.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/CrashReport.py	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/CrashReport.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/CrashReport.pyc	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/CrashReport.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/CrashReport.pyo	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/CrashReport.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/DiffCompare.py	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/DiffCompare.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/DiffCompare.pyc	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/DiffCompare.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/DiffCompare.pyo	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/DiffCompare.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/FileChoosers.py	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/FileChoosers.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/FileChoosers.pyc	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/FileChoosers.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/FileChoosers.pyo	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/FileChoosers.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/FilterBar.py	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/FilterBar.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/FilterBar.pyc	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/FilterBar.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/FilterBar.pyo	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/FilterBar.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/Icons.py	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/Icons.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/Icons.pyc	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/Icons.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/Icons.pyo	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/Icons.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/MainWindow.py	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/MainWindow.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/MainWindow.pyc	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/MainWindow.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/MainWindow.pyo	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/MainWindow.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/NmapOutputProperties.py	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/NmapOutputProperties.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/NmapOutputProperties.pyc	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/NmapOutputProperties.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/NmapOutputProperties.pyo	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/NmapOutputProperties.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/NmapOutputViewer.py	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/NmapOutputViewer.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/NmapOutputViewer.pyc	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/NmapOutputViewer.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/NmapOutputViewer.pyo	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/NmapOutputViewer.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/OptionBuilder.py	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/OptionBuilder.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/OptionBuilder.pyc	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/OptionBuilder.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/OptionBuilder.pyo	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/OptionBuilder.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/Print.py	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/Print.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/Print.pyc	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/Print.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/Print.pyo	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/Print.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/ProfileCombo.py	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/ProfileCombo.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/ProfileCombo.pyc	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/ProfileCombo.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/ProfileCombo.pyo	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/ProfileCombo.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/ProfileEditor.py	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/ProfileEditor.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/ProfileEditor.pyc	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/ProfileEditor.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/ProfileEditor.pyo	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/ProfileEditor.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/ProfileHelp.py	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/ProfileHelp.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/ProfileHelp.pyc	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/ProfileHelp.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/ProfileHelp.pyo	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/ProfileHelp.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/ScanHostDetailsPage.py	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/ScanHostDetailsPage.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/ScanHostDetailsPage.pyc	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/ScanHostDetailsPage.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/ScanHostDetailsPage.pyo	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/ScanHostDetailsPage.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/ScanHostsView.py	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/ScanHostsView.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/ScanHostsView.pyc	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/ScanHostsView.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/ScanHostsView.pyo	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/ScanHostsView.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/ScanInterface.py	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/ScanInterface.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/ScanInterface.pyc	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/ScanInterface.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/ScanInterface.pyo	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/ScanInterface.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/ScanNmapOutputPage.py	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/ScanNmapOutputPage.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/ScanNmapOutputPage.pyc	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/ScanNmapOutputPage.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/ScanNmapOutputPage.pyo	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/ScanNmapOutputPage.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/ScanOpenPortsPage.py	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/ScanOpenPortsPage.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/ScanOpenPortsPage.pyc	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/ScanOpenPortsPage.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/ScanOpenPortsPage.pyo	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/ScanOpenPortsPage.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/ScanRunDetailsPage.py	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/ScanRunDetailsPage.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/ScanRunDetailsPage.pyc	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/ScanRunDetailsPage.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/ScanRunDetailsPage.pyo	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/ScanRunDetailsPage.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/ScanScanListPage.py	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/ScanScanListPage.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/ScanScanListPage.pyc	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/ScanScanListPage.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/ScanScanListPage.pyo	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/ScanScanListPage.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/ScanToolbar.py	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/ScanToolbar.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/ScanToolbar.pyc	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/ScanToolbar.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/ScanToolbar.pyo	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/ScanToolbar.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/ScansListStore.py	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/ScansListStore.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/ScansListStore.pyc	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/ScansListStore.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/ScansListStore.pyo	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/ScansListStore.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/ScriptInterface.py	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/ScriptInterface.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/ScriptInterface.pyc	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/ScriptInterface.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/ScriptInterface.pyo	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/ScriptInterface.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/SearchGUI.py	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/SearchGUI.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/SearchGUI.pyc	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/SearchGUI.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/SearchGUI.pyo	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/SearchGUI.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/SearchWindow.py	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/SearchWindow.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/SearchWindow.pyc	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/SearchWindow.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/SearchWindow.pyo	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/SearchWindow.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/TargetCombo.py	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/TargetCombo.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/TargetCombo.pyc	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/TargetCombo.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/TargetCombo.pyo	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/TargetCombo.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/TopologyPage.py	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/TopologyPage.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/TopologyPage.pyc	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/TopologyPage.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/TopologyPage.pyo	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/TopologyPage.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/__init__.py	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/__init__.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/__init__.pyc	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/__init__.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/__init__.pyo	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/__init__.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/__init__.py	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/__init__.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/__init__.pyc	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/__init__.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/__init__.pyo	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/__init__.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/gtkutils.py	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/gtkutils.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/gtkutils.pyc	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/gtkutils.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/gtkutils.pyo	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/gtkutils.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higboxes.py	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higboxes.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higboxes.pyc	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higboxes.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higboxes.pyo	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higboxes.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higbuttons.py	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higbuttons.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higbuttons.pyc	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higbuttons.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higbuttons.pyo	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higbuttons.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higdialogs.py	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higdialogs.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higdialogs.pyc	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higdialogs.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higdialogs.pyo	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higdialogs.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higentries.py	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higentries.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higentries.pyc	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higentries.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higentries.pyo	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higentries.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higexpanders.py	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higexpanders.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higexpanders.pyc	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higexpanders.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higexpanders.pyo	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higexpanders.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higframe.py	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higframe.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higframe.pyc	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higframe.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higframe.pyo	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higframe.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higlabels.py	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higlabels.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higlabels.pyc	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higlabels.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higlabels.pyo	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higlabels.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higlogindialogs.py	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higlogindialogs.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higlogindialogs.pyc	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higlogindialogs.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higlogindialogs.pyo	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higlogindialogs.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/hignotebooks.py	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/hignotebooks.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/hignotebooks.pyc	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/hignotebooks.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/hignotebooks.pyo	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/hignotebooks.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higprogressbars.py	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higprogressbars.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higprogressbars.pyc	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higprogressbars.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higprogressbars.pyo	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higprogressbars.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higscrollers.py	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higscrollers.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higscrollers.pyc	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higscrollers.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higscrollers.pyo	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higscrollers.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higspinner.py	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higspinner.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higspinner.pyc	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higspinner.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higspinner.pyo	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higspinner.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higtables.py	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higtables.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higtables.pyc	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higtables.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higtables.pyo	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higtables.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higtextviewers.py	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higtextviewers.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higtextviewers.pyc	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higtextviewers.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higtextviewers.pyo	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higtextviewers.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higwindows.py	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higwindows.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higwindows.pyc	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higwindows.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higwindows.pyo	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/higwindows.pyo
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/utils.py	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/utils.py
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/utils.pyc	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/utils.pyc
-install -m 0755 /opt/nmap/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/utils.pyo	%{buildroot}/usr/lib/python2.7/site-packages/zenmapGUI/higwidgets/utils.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/__init__.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/__init__.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/__init__.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/bestwidgets/__init__.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/bestwidgets/__init__.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/bestwidgets/__init__.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/bestwidgets/boxes.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/bestwidgets/boxes.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/bestwidgets/boxes.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/bestwidgets/buttons.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/bestwidgets/buttons.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/bestwidgets/buttons.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/bestwidgets/comboboxes.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/bestwidgets/comboboxes.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/bestwidgets/comboboxes.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/bestwidgets/expanders.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/bestwidgets/expanders.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/bestwidgets/expanders.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/bestwidgets/frames.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/bestwidgets/frames.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/bestwidgets/frames.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/bestwidgets/labels.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/bestwidgets/labels.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/bestwidgets/labels.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/bestwidgets/textview.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/bestwidgets/textview.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/bestwidgets/textview.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/bestwidgets/windows.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/bestwidgets/windows.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/bestwidgets/windows.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/core/ArgvHandle.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/core/ArgvHandle.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/core/ArgvHandle.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/core/Coordinate.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/core/Coordinate.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/core/Coordinate.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/core/Graph.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/core/Graph.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/core/Graph.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/core/Info.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/core/Info.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/core/Info.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/core/Interpolation.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/core/Interpolation.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/core/Interpolation.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/core/XMLHandler.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/core/XMLHandler.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/core/XMLHandler.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/core/__init__.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/core/__init__.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/core/__init__.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/gui/Application.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/gui/Application.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/gui/Application.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/gui/ControlWidget.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/gui/ControlWidget.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/gui/ControlWidget.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/gui/Dialogs.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/gui/Dialogs.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/gui/Dialogs.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/gui/HostsViewer.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/gui/HostsViewer.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/gui/HostsViewer.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/gui/Image.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/gui/Image.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/gui/Image.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/gui/LegendWindow.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/gui/LegendWindow.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/gui/LegendWindow.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/gui/NodeNotebook.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/gui/NodeNotebook.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/gui/NodeNotebook.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/gui/NodeWindow.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/gui/NodeWindow.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/gui/NodeWindow.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/gui/RadialNet.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/gui/RadialNet.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/gui/RadialNet.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/gui/SaveDialog.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/gui/SaveDialog.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/gui/SaveDialog.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/gui/Toolbar.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/gui/Toolbar.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/gui/Toolbar.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/gui/__init__.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/gui/__init__.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/gui/__init__.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/util/__init__.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/util/__init__.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/util/__init__.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/util/drawing.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/util/drawing.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/util/drawing.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/util/geometry.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/util/geometry.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/util/geometry.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/util/integration.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/util/integration.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/util/integration.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/util/misc.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/util/misc.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/util/misc.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmap-7.80-py2.7.egg-info
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapCore/BasePaths.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapCore/BasePaths.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapCore/BasePaths.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapCore/DelayedObject.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapCore/DelayedObject.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapCore/DelayedObject.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapCore/Diff.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapCore/Diff.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapCore/Diff.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapCore/I18N.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapCore/I18N.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapCore/I18N.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapCore/NSEDocParser.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapCore/NSEDocParser.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapCore/NSEDocParser.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapCore/Name.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapCore/Name.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapCore/Name.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapCore/NetworkInventory.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapCore/NetworkInventory.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapCore/NetworkInventory.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapCore/NmapCommand.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapCore/NmapCommand.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapCore/NmapCommand.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapCore/NmapOptions.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapCore/NmapOptions.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapCore/NmapOptions.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapCore/NmapParser.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapCore/NmapParser.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapCore/NmapParser.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapCore/Paths.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapCore/Paths.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapCore/Paths.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapCore/RecentScans.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapCore/RecentScans.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapCore/RecentScans.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapCore/ScriptArgsParser.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapCore/ScriptArgsParser.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapCore/ScriptArgsParser.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapCore/ScriptMetadata.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapCore/ScriptMetadata.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapCore/ScriptMetadata.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapCore/SearchResult.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapCore/SearchResult.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapCore/SearchResult.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapCore/StringPool.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapCore/StringPool.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapCore/StringPool.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapCore/TargetList.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapCore/TargetList.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapCore/TargetList.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapCore/UmitConf.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapCore/UmitConf.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapCore/UmitConf.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapCore/UmitConfigParser.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapCore/UmitConfigParser.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapCore/UmitConfigParser.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapCore/UmitDB.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapCore/UmitDB.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapCore/UmitDB.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapCore/UmitLogging.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapCore/UmitLogging.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapCore/UmitLogging.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapCore/UmitOptionParser.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapCore/UmitOptionParser.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapCore/UmitOptionParser.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapCore/Version.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapCore/Version.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapCore/Version.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapCore/__init__.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapCore/__init__.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapCore/__init__.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/About.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/About.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/About.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/App.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/App.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/App.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/BugReport.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/BugReport.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/BugReport.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/CrashReport.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/CrashReport.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/CrashReport.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/DiffCompare.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/DiffCompare.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/DiffCompare.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/FileChoosers.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/FileChoosers.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/FileChoosers.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/FilterBar.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/FilterBar.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/FilterBar.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/Icons.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/Icons.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/Icons.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/MainWindow.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/MainWindow.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/MainWindow.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/NmapOutputProperties.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/NmapOutputProperties.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/NmapOutputProperties.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/NmapOutputViewer.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/NmapOutputViewer.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/NmapOutputViewer.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/OptionBuilder.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/OptionBuilder.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/OptionBuilder.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/Print.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/Print.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/Print.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/ProfileCombo.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/ProfileCombo.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/ProfileCombo.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/ProfileEditor.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/ProfileEditor.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/ProfileEditor.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/ProfileHelp.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/ProfileHelp.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/ProfileHelp.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/ScanHostDetailsPage.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/ScanHostDetailsPage.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/ScanHostDetailsPage.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/ScanHostsView.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/ScanHostsView.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/ScanHostsView.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/ScanInterface.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/ScanInterface.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/ScanInterface.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/ScanNmapOutputPage.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/ScanNmapOutputPage.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/ScanNmapOutputPage.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/ScanOpenPortsPage.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/ScanOpenPortsPage.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/ScanOpenPortsPage.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/ScanRunDetailsPage.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/ScanRunDetailsPage.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/ScanRunDetailsPage.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/ScanScanListPage.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/ScanScanListPage.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/ScanScanListPage.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/ScanToolbar.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/ScanToolbar.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/ScanToolbar.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/ScansListStore.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/ScansListStore.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/ScansListStore.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/ScriptInterface.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/ScriptInterface.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/ScriptInterface.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/SearchGUI.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/SearchGUI.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/SearchGUI.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/SearchWindow.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/SearchWindow.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/SearchWindow.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/TargetCombo.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/TargetCombo.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/TargetCombo.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/TopologyPage.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/TopologyPage.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/TopologyPage.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/__init__.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/__init__.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/__init__.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/higwidgets/__init__.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/higwidgets/__init__.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/higwidgets/__init__.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/higwidgets/gtkutils.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/higwidgets/gtkutils.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/higwidgets/gtkutils.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/higwidgets/higboxes.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/higwidgets/higboxes.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/higwidgets/higboxes.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/higwidgets/higbuttons.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/higwidgets/higbuttons.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/higwidgets/higbuttons.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/higwidgets/higdialogs.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/higwidgets/higdialogs.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/higwidgets/higdialogs.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/higwidgets/higentries.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/higwidgets/higentries.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/higwidgets/higentries.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/higwidgets/higexpanders.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/higwidgets/higexpanders.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/higwidgets/higexpanders.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/higwidgets/higframe.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/higwidgets/higframe.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/higwidgets/higframe.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/higwidgets/higlabels.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/higwidgets/higlabels.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/higwidgets/higlabels.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/higwidgets/higlogindialogs.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/higwidgets/higlogindialogs.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/higwidgets/higlogindialogs.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/higwidgets/hignotebooks.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/higwidgets/hignotebooks.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/higwidgets/hignotebooks.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/higwidgets/higprogressbars.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/higwidgets/higprogressbars.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/higwidgets/higprogressbars.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/higwidgets/higscrollers.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/higwidgets/higscrollers.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/higwidgets/higscrollers.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/higwidgets/higspinner.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/higwidgets/higspinner.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/higwidgets/higspinner.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/higwidgets/higtables.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/higwidgets/higtables.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/higwidgets/higtables.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/higwidgets/higtextviewers.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/higwidgets/higtextviewers.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/higwidgets/higtextviewers.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/higwidgets/higwindows.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/higwidgets/higwindows.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/higwidgets/higwindows.pyo
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/higwidgets/utils.py
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/higwidgets/utils.pyc
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/zenmapGUI/higwidgets/utils.pyo
 install -m 0755 /opt/nmap/usr/local/share/applications/zenmap-root.desktop	%{buildroot}/usr/share/applications/zenmap-root.desktop
 install -m 0755 /opt/nmap/usr/local/share/applications/zenmap.desktop	%{buildroot}/usr/share/applications/zenmap.desktop
 install -m 0755 /usr/share/man/de/man1/nmap.1.gz	%{buildroot}/usr/share/man/de/man1/nmap.1.gz
