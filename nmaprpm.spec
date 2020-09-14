@@ -55,7 +55,7 @@ ln -s ncat.1.gz %{buildroot}%{_mandir}/man1/nc.1.gz
 ln -s ncat %{buildroot}%{_bindir}/nc
 
 #install -m 0755 install -m 0755 /usr/bin/nc	%{buildroot}/usr/bin/nc
-install -m 0755 install -m 0755 /usr/bin/ncat	%{buildroot}/usr/bin/ncat
+#install -m 0755 install -m 0755 /usr/bin/ncat	%{buildroot}/usr/bin/ncat
 install -m 0755 install -m 0755 /usr/bin/ndiff	%{buildroot}/usr/bin/ndiff
 install -m 0755 install -m 0755 /usr/bin/nmap	%{buildroot}/usr/bin/nmap
 install -m 0755 install -m 0755 /usr/bin/nmap-update	%{buildroot}/usr/bin/nmap-update
