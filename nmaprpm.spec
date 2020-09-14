@@ -403,7 +403,7 @@ install -m 0755 /usr/share/man/man1/ndiff.1.gz	%{buildroot}/usr/share/man/man1/n
 #install -m 0755 /usr/share/man/man1/nmap-update.1.gz	%{buildroot}/usr/share/man/man1/nmap-update.1.gz
 install -m 0755 /usr/share/man/man1/nmap.1.gz	%{buildroot}/usr/share/man/man1/nmap.1.gz
 install -m 0755 /usr/share/man/man1/nping.1.gz	%{buildroot}/usr/share/man/man1/nping.1.gz
-install -m 0755 /usr/share/man/man1/zenmap.1.gz	%{buildroot}/usr/share/man/man1/zenmap.1.gz
+#install -m 0755 /usr/share/man/man1/zenmap.1.gz	%{buildroot}/usr/share/man/man1/zenmap.1.gz
 install -m 0755 /usr/share/man/pl/man1/nmap.1.gz	%{buildroot}/usr/share/man/pl/man1/nmap.1.gz
 install -m 0755 /usr/share/man/pt_BR/man1/nmap.1.gz	%{buildroot}/usr/share/man/pt_BR/man1/nmap.1.gz
 install -m 0755 /usr/share/man/pt_PT/man1/nmap.1.gz	%{buildroot}/usr/share/man/pt_PT/man1/nmap.1.gz
