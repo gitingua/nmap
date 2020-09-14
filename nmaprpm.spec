@@ -58,7 +58,7 @@ ln -s ncat %{buildroot}%{_bindir}/nc
 install -m 0755 /usr/bin/ncat	%{buildroot}/usr/bin/ncat
 install -m 0755 /usr/bin/ndiff	%{buildroot}/usr/bin/ndiff
 install -m 0755 /usr/bin/nmap	%{buildroot}/usr/bin/nmap
-install -m 0755 /usr/bin/nmap-update	%{buildroot}/usr/bin/nmap-update
+install -m 0755 /usr/bin/nmap-update	%{buildroot}/usr/bin/
 install -m 0755 /usr/bin/nmapfe	%{buildroot}/usr/bin/nmapfe
 install -m 0755 /usr/bin/nping	%{buildroot}/usr/bin/nping
 install -m 0755 /usr/bin/uninstall_ndiff	%{buildroot}/usr/bin/uninstall_ndiff
