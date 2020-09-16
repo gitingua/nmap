@@ -2473,14 +2473,14 @@ install -m 0755 /opt/nmap/usr/local/share/zenmap/su-to-zenmap.sh	%{buildroot}/us
 /usr/share/zenmap/pixmaps/zenmap.png
 /usr/share/zenmap/su-to-zenmap.sh
 
-#%post
-#service nmap stop
-#chkconfig nmap off
-#systemctl mask systemd-journald-nmap.socket
-#systemctl enable nmap.service 
-#systemctl restart nmap.service
-#%systemd_post nmap.service
-#systemctl daemon-reload
+%post
+service nmap stop
+chkconfig nmap off
+systemctl mask systemd-journald-nmap.socket
+systemctl enable nmap.service 
+systemctl restart nmap.service
+%systemd_post nmap.service
+systemctl daemon-reload
 
 #%preun
 #if [ $1 == 0 ]; then #uninstall
