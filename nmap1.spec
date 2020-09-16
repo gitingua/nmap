@@ -41,6 +41,9 @@ export CXXFLAGS="$RPM_OPT_FLAGS -fno-strict-aliasing"
 
 #fix man page (rhbz#813734)
 sed -i 's/-md/-mf/' nping/docs/nping.1
+
+
+mkdir -p %{buildroot}/test
 %install
 make -j8 all
 make DESTDIR=%{buildroot} STRIP=true install
