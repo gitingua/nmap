@@ -34,7 +34,6 @@ Repackaged nmap package with configuration from the Department of Cybersecurity
 rm -rf libpcap libpcre macosx mswin32 libssh2 libz
 
 %build
-
 export CFLAGS="$RPM_OPT_FLAGS -fno-strict-aliasing"
 export CXXFLAGS="$RPM_OPT_FLAGS -fno-strict-aliasing"
 
