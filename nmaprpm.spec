@@ -60,7 +60,7 @@ ln -s ncat %{buildroot}%{_bindir}/nc
 #install -m 0755 /root/rpmbuild/BUILD/nmap-7.80/nmap-update	%{buildroot}/usr/bin/nmap-update
 #install -m 0755 /opt/nmap/usr/local/bin/nmapfe	%{buildroot}/usr/bin/nmapfe
 #install -m 0755 /usr/bin/nping	%{buildroot}/usr/bin/nping
-install -m 0755 /usr/bin/uninstall_ndiff	%{buildroot}/usr/bin/uninstall_ndiff
+install -m 0755 /opt/nmap/usr/bin/uninstall_ndiff	%{buildroot}/usr/bin/uninstall_ndiff
 install -m 0755 /opt/nmap/usr/local/bin/uninstall_zenmap	%{buildroot}/usr/bin/uninstall_zenmap
 install -m 0755 /opt/nmap/usr/local/bin/xnmap	%{buildroot}/usr/bin/xnmap
 install -m 0755 /opt/nmap/usr/local/bin/zenmap	%{buildroot}/usr/bin/zenmap
