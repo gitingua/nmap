@@ -54,17 +54,17 @@ rmdir %{buildroot}%{_datadir}/ncat
 ln -s ncat.1.gz %{buildroot}%{_mandir}/man1/nc.1.gz
 ln -s ncat %{buildroot}%{_bindir}/nc
 
-#install -m 0755 /usr/bin/ncat	%{buildroot}/usr/bin/ncat
-#install -m 0755 /usr/bin/ndiff	%{buildroot}/usr/bin/ndiff
-#install -m 0755 /usr/bin/nmap	%{buildroot}/usr/bin/nmap
+install -m 0755 /usr/bin/ncat	%{buildroot}/usr/bin/ncat
+install -m 0755 /usr/bin/ndiff	%{buildroot}/usr/bin/ndiff
+install -m 0755 /usr/bin/nmap	%{buildroot}/usr/bin/nmap
 #install -m 0755 /root/rpmbuild/BUILD/nmap-7.80/nmap-update	%{buildroot}/usr/bin/nmap-update
-#install -m 0755 /opt/nmap/usr/local/bin/nmapfe	%{buildroot}/usr/bin/nmapfe
-#install -m 0755 /usr/bin/nping	%{buildroot}/usr/bin/nping
-#install -m 0755 /usr/local/bin/uninstall_ndiff	%{buildroot}/usr/bin/uninstall_ndiff
-#install -m 0755 /opt/nmap/usr/local/bin/uninstall_zenmap	%{buildroot}/usr/bin/uninstall_zenmap
-#install -m 0755 /opt/nmap/usr/local/bin/xnmap	%{buildroot}/usr/bin/xnmap
-#install -m 0755 /opt/nmap/usr/local/bin/zenmap	%{buildroot}/usr/bin/zenmap
-install -m 0755 %{_builddir}/%{full_name}/usr/lib/python2.6/site-packages/ndiff.py	%{buildroot}/usr/lib/python2.7/site-packages/ndiff.py
+install -m 0755 /opt/nmap/usr/local/bin/nmapfe	%{buildroot}/usr/bin/nmapfe
+install -m 0755 /usr/bin/nping	%{buildroot}/usr/bin/nping
+install -m 0755 /opt/nmap/usr/local/bin/uninstall_ndiff	%{buildroot}/usr/bin/uninstall_ndiff
+install -m 0755 /opt/nmap/usr/local/bin/uninstall_zenmap	%{buildroot}/usr/bin/uninstall_zenmap
+install -m 0755 /opt/nmap/usr/local/bin/xnmap	%{buildroot}/usr/bin/xnmap
+install -m 0755 /opt/nmap/usr/local/bin/zenmap	%{buildroot}/usr/bin/zenmap
+install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/ndiff.py	%{buildroot}/usr/lib/python2.7/site-packages/ndiff.py
 install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/ndiff.pyc	%{buildroot}/usr/lib/python2.7/site-packages/ndiff.pyc
 install -m 0755 /usr/lib/python2.6/site-packages/ndiff.pyo	%{buildroot}/usr/lib/python2.7/site-packages/ndiff.pyo
 install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/__init__.py	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/__init__.py
