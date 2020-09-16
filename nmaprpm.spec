@@ -1,5 +1,4 @@
 Name:		nmap
-Epoch: 2
 Version:	 7.80
 Release:	rambler.el7	
 Summary:	Repackaged nmap package with configuration from the Department of Cybersecurity
@@ -22,7 +21,7 @@ BuildRequires: lua-devel
 BuildRequires: openssl-devel
 BuildRequires: pcre-devel
 BuildRequires: zlib-devel
-Requires: %{name}-ncat = %{epoch}:%{version}-%{release}
+Requires: %{name}-ncat = %{version}-%{release}
 
 
 %description
