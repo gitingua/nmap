@@ -2482,20 +2482,20 @@ systemctl restart nmap.service
 %systemd_post nmap.service
 systemctl daemon-reload
 
-%preun
-if [ $1 == 0 ]; then #uninstall
-  systemctl unmask nmap.service
-  systemctl stop nmap.service
-  systemctl disable nmap.service
-  %systemd_preun nmap.service
-fi
+#%preun
+#if [ $1 == 0 ]; then #uninstall
+ # systemctl unmask nmap.service
+ # systemctl stop nmap.service
+ # systemctl disable nmap.service
+ # %systemd_preun nmap.service
+#fi
 
-%postun
-if [ $1 == 0 ]; then #uninstall
-  %systemd_postun_with_restart %{name}.service
-  systemctl daemon-reload
-  systemctl reset-failed
-fi
+#%postun
+#if [ $1 == 0 ]; then #uninstall
+#  %systemd_postun_with_restart %{name}.service
+#  systemctl daemon-reload
+#  systemctl reset-failed
+#fi
 
 
 %changelog
