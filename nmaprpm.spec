@@ -64,7 +64,7 @@ ln -s ncat %{buildroot}%{_bindir}/nc
 #install -m 0755 /opt/nmap/usr/local/bin/uninstall_zenmap	%{buildroot}/usr/bin/uninstall_zenmap
 #install -m 0755 /opt/nmap/usr/local/bin/xnmap	%{buildroot}/usr/bin/xnmap
 #install -m 0755 /opt/nmap/usr/local/bin/zenmap	%{buildroot}/usr/bin/zenmap
-install -m 0755 /usr/local/lib/python2.6/site-packages/ndiff.py	%{buildroot}/usr/lib/python2.7/site-packages/ndiff.py
+install -m 0755 /usr/lib/python2.6/site-packages/ndiff.py	%{buildroot}/usr/lib/python2.7/site-packages/ndiff.py
 install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/ndiff.pyc	%{buildroot}/usr/lib/python2.7/site-packages/ndiff.pyc
 install -m 0755 /usr/lib/python2.6/site-packages/ndiff.pyo	%{buildroot}/usr/lib/python2.7/site-packages/ndiff.pyo
 install -m 0755 /opt/nmap/usr/local/lib/python2.7/site-packages/radialnet/__init__.py	%{buildroot}/usr/lib/python2.7/site-packages/radialnet/__init__.py
